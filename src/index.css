@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App{
+  height: 100vh;
+  width: 100vw;
+  
+}
+.header{
+  font-size: 20px;
+  color: royalblue;
+  border-bottom: 1px solid grey;
+  
+}
+h1{
+  
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-left: 15px;
+}
+
+.parent{
+ width: 100vw;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ padding: 2%;
+}
+.item{
+  width: 300px;
+  box-shadow: 0.5pc 10px 30px #9c9c9c;
+  padding:10px;
+  text-align: center;
+  margin: 10px;
+}
+.btn{
+  
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+button{
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 176);
+  color: whitesmoke;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgb(98, 114, 160);
+}
+img{
+  height: 250px;
+  width: 200px;
+}
+.p-movie{
+  font-size: 15px;
+  font-weight: 600;
+  color: crimson;
+  letter-spacing: 1px;
+  text-transform:uppercase;
+}
+.h2-movie{
+  color: royalblue;
+  font-weight: 700;
+}
+.view{
+  padding: 2%;
+  text-align: center;
+}
+.view-h2{
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgb(73, 73, 176);
+  letter-spacing: 1px;
+}
+.view-h3{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: crimson;
+  text-align: left;
+  margin-left: 20px;
+
+}
+.view-para{
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  padding: 20px;
+}
+.more{
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  margin: 5%;
+
+}
+i{
+  margin: 10px;
+  color: crimson;
+  font-size: 20px;
+  font-weight: 600;
+
+}
+.book{
+  text-align: center;
+  align-items: center;
+}
+.data{
+  text-align: center;
+}
+.book-p{
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgb(73, 73, 176);
+  letter-spacing: 1px;
+}
+form{
+  width: 350px;
+  padding: 30px;
+  text-align: left;
+  margin: auto;
+  
+  
+}
+label{
+  font-weight: 600;
+  margin: 2px;
+}
+input{
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid royalblue;
+  font-size: 15px;
+  margin: 10px;
+}
